@@ -1,3 +1,19 @@
+* {
+  scrollbar-width: thin;
+  scrollbar-color: teal;
+  scroll-behavior: smooth;
+}
+*::-webkit-scrollbar {
+  width: 7px;
+}
+*::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+}
+*::-webkit-scrollbar-thumb {
+  background-color: teal;
+  border-radius: 20px;
+  border: transparent;
+}
 .Toastify__toast--error {
   background: #2e2b2b !important;
   color: #fff !important;
